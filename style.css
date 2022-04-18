@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
     overflow-x: hidden;
+    font-family: 'Poppins';
 }
 /* FONT */
 .fw-semibold{
@@ -32,10 +34,28 @@ body{
     border-color: black;
     background-color: white;
 }
-.padding{
-    border-radius: 10px;
-    border-color: black;
+@media only screen and (max-width: 768px) {
+    .padding{
+    border-radius: 20px;
     background-color: white;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .padding{
+        border-radius: 10px;
+        border-color: black;
+        background-color: white;
+    }
+}
+.btnmobile{
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: white;   
+}
+.btnmobile2{
+    border-radius: 15px;
+    border-color: transparent;
+    background-color: white;   
 }
 .lineleft{
     margin-top: -750px;
