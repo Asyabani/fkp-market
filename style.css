@@ -10,6 +10,12 @@ body{
 .f-2{
     font-size: 2px;
 }
+.f-6{
+    font-size: 6px;
+}
+.f-8{
+    font-size: 8px;
+}
 .f-10{
     font-size: 10px;
 }
@@ -28,11 +34,39 @@ body{
 .f-40{
     font-size: 40px;
 }
-
-.btn{
+/* Color */
+.back-blue {
+    background-color: #29AAE3;
+}
+.bg-second{
+    background-color: #F3F3F3;
+}
+.text-prem{
+    color: #29AAE3;
+}
+/* LOGIN REGIS */
+.btnlogin{
     border-radius: 10px;
     border-color: black;
     background-color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.btnlogin:hover{
+    background-color:#29AAE3 ;
+    border-color: rgb(204, 204, 204);
+    box-shadow: 1px 2px 1px 1px;
+
+}
+.btn2{
+    border-radius: 10px;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+}
+.btn2:hover{
+   background-color: rgb(233, 233, 233);
+  letter-spacing: 1px;
+
 }
 @media only screen and (max-width: 768px) {
     .padding{
@@ -61,4 +95,11 @@ body{
     margin-top: -750px;
     margin-left: -80px;
     z-index: -9999;
+}
+/* VOUCHER */
+
+.border-card{
+    border: solid 1px ;
+    border-color: #C4C4C4;
+    border-left: none;
 }
